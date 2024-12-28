@@ -1,0 +1,23 @@
+# Proje: İkili Arama Ağacı ve Bağlı Liste
+
+## Dosya Açıklamaları:
+- **BinarySearchTree.h / .cpp**: İkili arama ağacının yapısını ve işlevlerini tanımlar.
+- **Node.h / .cpp**: Ağacın düğümlerini tanımlar.
+- **LinkedList.h / .cpp**: İkili arama ağaçlarını tutan bağlı liste yapısını tanımlar.
+- **main.cpp**: Kullanıcı menüsünü ve programın giriş noktası.
+- **agaclar.txt**: Girdi dosyası, her satır bir ikili arama ağacı oluşturur.
+
+## Kullanım:
+1. 'agaclar.txt' dosyasını proje klasörüne ekleyin.
+2. Projeyi derlemek için 'mingw32-make' komutunu çalıştırın.
+3. Programı çalıştırmak için 'bin/program' kullanın.
+
+## Menü Seçenekleri:
+- **D**: Sonraki ağaca git.
+- **A**: Önceki ağaca git.
+- **S**: Şu anki ağacı sil.
+- **W**: Şu anki ağacı aynala.
+- **L**: Bağlı listeyi ve seçili ağacı göster.
+- **E**: Programı sonlandır.
+
+
